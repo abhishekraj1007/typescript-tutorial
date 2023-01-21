@@ -131,4 +131,11 @@ const insta = new Instagram("text", "text", 2);
 
 insta.checkEven(34);
 
+
+class GenericClass <T> {
+  constructor (public age : T) {
+    this.age = age
+  }
+}
+
 export {};
